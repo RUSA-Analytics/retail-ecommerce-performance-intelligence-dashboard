@@ -62,7 +62,7 @@ These are synthetic demonstration figures taken from the dashboard's overall vie
     └── SETUP.md
 ```
 
-The Power BI source file and detailed source data should be added only after the model, calculations, sorting, drill-through behaviour, and displayed insights complete final QA.
+The Power BI source file, semantic model, DAX logic, and detailed source data are proprietary and will not be distributed publicly. The public demonstration uses this documentation, screenshots, video, and a static HTML showcase.
 
 ## Tools demonstrated
 
@@ -74,7 +74,13 @@ The Power BI source file and detailed source data should be added only after the
 
 ## Current status
 
-This repository package is suitable for portfolio presentation. Before publishing the `.pbix` file as a technical sample, complete the QA items documented in [`docs/SETUP.md`](docs/SETUP.md).
+This repository package is suitable for private portfolio review. Complete the QA items documented in [`docs/SETUP.md`](docs/SETUP.md) before publishing the HTML showcase or promoting the project publicly.
+
+## Public demo policy
+
+- Publish the HTML showcase, screenshots, documentation, and approved demo video.
+- Keep the `.pbix` file, dataset, semantic model, Power Query steps, and detailed DAX measures private.
+- Do not expose downloadable source files through GitHub Releases or public cloud links.
 
 ## About RUSA Analytics
 
@@ -82,4 +88,3 @@ RUSA Analytics builds AI-powered decision intelligence solutions across data fou
 
 - Website: [rusaanalytics.com](https://rusaanalytics.com)
 - Business enquiries: Use the contact form on the website.
-
