@@ -1,14 +1,14 @@
 # Setup and Publication Notes
 
-## To open the Power BI project
+## Internal Power BI access
 
 1. Install a current version of Microsoft Power BI Desktop.
-2. Download the `.pbix` file when it is added to the repository.
+2. Obtain the `.pbix` file through RUSA Analytics' controlled internal storage. It is not distributed through this repository.
 3. Keep the accompanying dataset in the documented relative location.
 4. Open the report and refresh the model.
 5. Confirm that all visuals load without missing-field or relationship errors.
 
-## Mandatory QA before adding the `.pbix`
+## Mandatory QA before publishing the HTML demonstration
 
 - Sort month names chronologically using a month-number field.
 - Reconcile every narrative insight with the visual and filtered values.
@@ -20,14 +20,20 @@
 - Test every slicer, tooltip, bookmark, button, and page navigation action.
 - Remove personal paths, credentials, gateway references, and confidential metadata.
 
-## Recommended public-release contents
+## Approved public-release contents
 
 - `README.md`
 - Screenshots in `assets/`
 - Documentation in `docs/`
-- Sanitized `.pbix` file
-- Synthetic or anonymized sample dataset
-- Data dictionary and measure catalogue
+- Static `index.html` demonstration
+- Approved walkthrough video or video link
+
+## Files that must remain private
+
+- Power BI `.pbix` source file
+- Source and transformed datasets
+- Detailed data dictionary and measure catalogue
+- DAX measures and Power Query transformation logic
+- Credentials, tokens, gateway settings, and internal file paths
 
 Do not upload raw client data, credentials, access tokens, or confidential business information.
-
