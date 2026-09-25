@@ -1,0 +1,19 @@
+# Power BI temporary and backup files
+*.pbix.autosave
+*.tmp
+*.bak
+
+# Local data extracts and credentials
+data/private/
+*.env
+.env
+credentials.json
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
