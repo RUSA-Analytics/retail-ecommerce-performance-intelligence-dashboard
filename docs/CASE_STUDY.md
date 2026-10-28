@@ -32,5 +32,4 @@ In a real implementation, a dashboard of this type can support weekly business r
 - The data is synthetic.
 - No client deployment, adoption, cost saving, or revenue uplift is claimed.
 - Metrics must be interpreted within the report's filter context.
-- The source file should not be published until final calculation and interaction QA is complete.
 

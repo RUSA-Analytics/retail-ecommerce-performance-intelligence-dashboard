@@ -44,25 +44,31 @@ These are synthetic demonstration figures taken from the dashboard's overall vie
 
 ![Geography and Order Health](assets/geography-order-health.png)
 
+## Walkthrough
+
+- **Video demo:** [assets/video/retail-ecommerce-dashboard-demo.mp4](assets/video/retail-ecommerce-dashboard-demo.mp4)
+- **Case study:** [docs/CASE_STUDY.md](docs/CASE_STUDY.md) ([PDF version](docs/RUSA_Retail_Ecommerce_Performance_Intelligence_Case_Study.pdf))
+- **Showcase page:** [index.html](index.html)
+
 ## Repository contents
 
 ```text
 .
 ├── README.md
-├── REPOSITORY_DETAILS.md
-├── .gitignore
+├── index.html                      # static showcase page
 ├── assets/
 │   ├── github-social-preview.png
 │   ├── executive-summary.png
 │   ├── product-ecommerce-analytics.png
 │   ├── customer-insights.png
-│   └── geography-order-health.png
+│   ├── geography-order-health.png
+│   └── video/retail-ecommerce-dashboard-demo.mp4
 └── docs/
     ├── CASE_STUDY.md
-    └── SETUP.md
+    └── RUSA_Retail_Ecommerce_Performance_Intelligence_Case_Study.pdf
 ```
 
-The Power BI source file, semantic model, DAX logic, and detailed source data are proprietary and will not be distributed publicly. The public demonstration uses this documentation, screenshots, video, and a static HTML showcase.
+The Power BI source file (.pbix), semantic model, DAX measures and source data are not published in this repository.
 
 ## Tools demonstrated
 
@@ -71,16 +77,6 @@ The Power BI source file, semantic model, DAX logic, and detailed source data ar
 - DAX measures
 - Dimensional data modelling
 - Interactive filtering and drill-through design
-
-## Current status
-
-This repository package is suitable for private portfolio review. Complete the QA items documented in [`docs/SETUP.md`](docs/SETUP.md) before publishing the HTML showcase or promoting the project publicly.
-
-## Public demo policy
-
-- Publish the HTML showcase, screenshots, documentation, and approved demo video.
-- Keep the `.pbix` file, dataset, semantic model, Power Query steps, and detailed DAX measures private.
-- Do not expose downloadable source files through GitHub Releases or public cloud links.
 
 ## About RUSA Analytics
 
